@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LucienCSS - Démo Moderne</title>
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <span>LucienCSS</span>
+    <div class="navbar-links">
+      <a href="#">Accueil</a>
+      <a href="#">Composants</a>
+      <a href="#">Contact</a>
+    </div>
+    <button class="navbar-toggle" id="navbarToggle">
+      &#9776; <!-- Icône hamburger -->
+    </button>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <button class="close-btn" id="closeSidebar">&times;</button>
+    <a href="#">Accueil</a>
+    <a href="#">Composants</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Container -->
+  <div class="container">
+    <h1 class="lead">Framework CSS custom - v3</h1>
+    <blockquote>Un style simple et élégant pour commencer rapidement n'importe quel projet web.</blockquote>
+
+    <!-- Carousel -->
+    <h2>Carousel</h2>
+    <div class="carousel">
+      <div class="carousel-inner" id="carousel">
+        <img src="../assets/images/exemple1.jpeg" alt="Slide 1">
+        <img src="../assets/images/exemple2.jpg" alt="Slide 2">
+        <img src="../assets/images/exemple3.jpg" alt="Slide 3">
+      </div>
+      <button class="btn btn-secondary" id="prev">Précédent</button>
+      <button class="btn btn-secondary" id="next">Suivant</button>
+    </div>
+
+    <!-- Dashboard -->
+    <h2>Dashboard</h2>
+    <div class="dashboard">
+      <div class="dashboard-card">
+        <h3>Utilisateurs</h3>
+        <p>1,204 actifs</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Visites</h3>
+        <p>5,230 ce mois</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Revenus</h3>
+        <p>€12,530</p>
+      </div>
+      <div class="dashboard-card">
+        <h3>Support</h3>
+        <p>27 tickets ouverts</p>
+      </div>
+    </div>
+
+    <!-- Boutons -->
+    <h2>Boutons</h2>
+    <button class="btn btn-primary">Primaire</button>
+    <button class="btn btn-secondary">Secondaire</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-warning">Alerte</button>
+
+    <!-- Badges -->
+    <h2>Badges</h2>
+    <span class="badge badge-primary">New</span>
+    <span class="badge badge-success">Actif</span>
+    <span class="badge badge-danger">Erreur</span>
+
+    <!-- Grille responsive -->
+    <h2>Grille responsive</h2>
+    <div class="row">
+      <div class="col-4"><div class="card">Colonne 4</div></div>
+      <div class="col-4"><div class="card">Colonne 4</div></div>
+      <div class="col-4"><div class="card">Colonne 4</div></div>
+    </div>
+
+    <!-- Carte + Image -->
+    <h2>Carte + Image</h2>
+    <div class="card">
+      <h3>Titre</h3>
+      <p>Voici une carte avec une image responsive :</p>
+      <img src="../assets/images/exemple.png" class="img-responsive" alt="image exemple">
+    </div>
+
+    <!-- Alertes -->
+    <h2>Alertes</h2>
+    <div class="alert alert-primary">Ceci est une alerte primaire.</div>
+    <div class="alert alert-danger">Ceci est une alerte rouge !</div>
+    <div class="alert alert-warning">Attention ici.</div>
+    <div class="alert alert-success">Succès !</div>
+
+    <!-- Formulaire -->
+    <h2>Formulaire</h2>
+    <div class="card">
+      <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" placeholder="Entrez votre nom">
+      
+        <label for="email">Email :</label>
+        <input type="email" id="email" placeholder="exemple@mail.com">
+      
+        <label for="message">Message :</label>
+        <textarea id="message" rows="4" placeholder="Écrivez votre message ici"></textarea>
+      
+        <button class="btn btn-primary" type="submit">Envoyer</button>
+      </form>
+    </div>
+
+    <!-- Tableau -->
+    <h2>Tableau</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Âge</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Alice</td><td>25</td></tr>
+        <tr><td>Bob</td><td>30</td></tr>
+      </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <h2>Pagination</h2>
+    <ul class="pagination">
+      <li>&laquo;</li>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>&raquo;</li>
+    </ul>
+
+    <!-- Spinner -->
+    <h2>Spinner</h2>
+    <div class="spinner"></div>
+
+    <!-- Modal -->
+    <h2>Modal (structure)</h2>
+    <div class="modal">
+      <h3>Titre du modal</h3>
+      <p>Contenu statique d'une boîte modale (pas encore interactif).</p>
+      <button class="btn btn-danger">Fermer</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Lucien W - Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
